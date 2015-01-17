@@ -9,6 +9,7 @@ Desktop.ini
 $RECYCLE.BIN/
 
 #Eclipse Project files
+*/.sittings/*
 *.classpath
 *.project
 *.prefs
