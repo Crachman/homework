@@ -1,0 +1,201 @@
+@CHARSET "UTF-8";
+
+body {
+	background-color: #f5f5f5;
+	overflow-y: scroll;
+}
+
+div {
+	display: block;	
+}
+
+form {
+	display: block;
+	border: 10px;
+}
+
+/*字体设置*/
+.font-hei {
+	font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
+		"Hiragino Sans GB", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+		SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
+}
+
+.font-kai {
+	font-family: Baskerville, Georgia, "Liberation Serif", "Kaiti SC", STKaiti, "AR PL UKai CN",
+		"AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312,
+		TW\-Kai, serif;
+}
+
+.font-song {
+	font-family: Georgia, "Nimbus Roman No9 L", "Songti SC", STSong, "AR PL SungtiL GB", NSimSun, SimSun,
+		TW\-Sung, "WenQuanYi Bitmap Song", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW",
+		"AR PL UMing TW MBE", serif;
+}
+
+.font-fang-song {
+	font-family: Baskerville, "Times New Roman", "Liberation Serif", STFangsong, FangSong,
+		FangSong_GB2312, CWTEX\-F, serif;
+}
+
+.font-ming {
+	font-family: Georgia, "Nimbus Roman No9 L", "AR PL UMing CN", "AR PL UMing HK", "AR PL UMing TW",
+		"AR PL UMing TW MBE", PMingLiU, MingLiU, serif;
+}
+
+/* CSS的注释方式 */
+
+/* 整体的DIV布局方式*/
+.container {
+	max-width: none;
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	position: relative;
+}
+
+/*页面顶部*/
+.heading {
+	width: 100%;
+	height: 130px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	/* background-color: gray; */
+}
+
+.login-box {
+	width: 350px;
+	height: 350px;
+	margin: 0 auto;
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	/* border: 1px dashed #BBBBBB; */
+	background-color: #fff;
+}
+
+.login-header {
+	width: 100%;
+	display: inline-block;
+	background-color: #fff;
+}
+
+.login-header .tab{
+	width: 50%;
+	color: #428BCA;	/*文字的顔色*/
+	float:left;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	background: #eee;
+	line-height: 300%;
+	border-bottom: 1px solid #ccc;
+	text-decoration: none;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+
+.lborder{
+	border-left:1px solid #ccc;
+	/* outline:0px solid #ccc; */
+	/* outline-style:solid; */
+}
+
+.rborder{
+	border-right:1px solid #ccc;
+	/* outline-right:0px solid #ccc; */
+	/* outline-style:solid; */
+}
+
+.login-header .tab:hover {
+	/*光標經過顯示的樣式*/
+	background: white;
+	/* border-left:1px solid #ccc; */
+	/* border-left:1px solid #ccc; */
+}
+
+.login-box .tab.active {
+	/*代表元素被激活时的样式，也就是元素被按下时的样式*/
+	cursor: default;/*光標默認爲箭頭*/
+	color: #444;
+	background: white;
+	border-bottom: 1px solid white;
+	/* text-decoration: none; */
+}
+
+/* 表单属性的设置 */
+.form {
+	display:inline;
+	/* width: 100%; */
+	/* height: 80%; */
+	/* border: 1px dashed #BBBBBB; */
+	/* border-radius: 3px; */
+	/* background-color: blue; */
+}
+
+.form div{
+	width:100%;
+	height:46px;
+	margin-top:10px;
+	margin-bottom:10px;
+	/* padding:10px 15px 10px 15px; *//* 逆时针：上右下左  */
+	text-align:center;
+	/* border: 1px dashed #BBBBBB; */
+	/* background-color: gray; */
+}
+
+.form-input {
+	width:80%;
+	height:30px;
+	margin-top:5px;
+	margin-bottom:5px;
+	border-radius: 3px;
+	border:1px solid #BBBBBB;
+	/* letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start; */
+	/* background-color: red; */
+}
+
+.form button{
+	width:80%;
+	height:46px;
+	margin:5px 10% 5px 10%;
+	color: #fff;
+	border-radius:3px;
+	border-color: #285e8e;
+	background-color: #3276b1;
+	/* padding-left:15px;
+	padding-right:15px; */
+}
+
+.hide-form{
+	display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

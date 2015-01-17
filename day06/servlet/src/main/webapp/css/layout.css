@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+ 
+body{
+	text-align:center;
+	background-color:#0099CC;
+}
+
+/* CSS的注释方式 */
+
+/* 整体的DIV布局方式*/
+
+.topBan{
+	width:100%;
+	height:300px;
+	margin-bottom:5px;
+	/*background-color:gray;*/
+}
+
+.middleBan{
+	width:100%;
+	height:300px;
+	margin:0 auto;
+	border:10px;
+}
+
+.midLeft{
+	width:40%;
+	height:300px;
+	float:left;
+	/*background-color:gray;*/
+}
+
+.midRight{
+	/* width:40%; */
+	width: 378px;
+	height:300px;
+	float:left;
+	/*background-color:gray;*/
+}
+
+.middleForm{
+	width:20%;
+	height:300px;
+	float:left;
+	background-color:black;
+}
+
+/* 表单属性的设置*/
+.formLogin
+{
+	width:191px;
+	height:300px;
+	float:left;
+	background-color:#777777;
+}
+
+.formRight
+{
+	width:170px; /*百分比是相对于父组件的尺寸算的，而非全局*/
+	height:300px;
+	float:left;
+	background-color:#EFF5F2;
+}
+
+.btLogin{
+	width:150px;
+	height:40px;
+	font-family:;
+	font-size:20px;
+}
+
+.textBox{
+	width:150px;
+	height:30px;
+	margin:10px 0px 5px 0px; /*top right bottom left*/
+}
+	
+.safecodeText{
+	width:50px;
+	height:30px;
+}
+
+.safecodeDiv{
+	width:175px;
+	height:36px;
+}	
+	
+	
+	
+	
+	
+	

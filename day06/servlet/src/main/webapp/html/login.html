@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<!-- 
+	<meta HTTP-EQUIV="pragma" CONTENT="no-cache">
+	<meta HTTP-EQUIV="Cache-Control" CONTENT="no-store, must-revalidate">
+-->
+	<link href="../css/layout.css" rel="stylesheet" type="text/css" />
+	<script src="../js/jquery1.83.js" > </script>
+	<script src="../js/common.js" > </script>
+<title>Login Page</title>
+<script type="text/javascript">
+
+</script>
+</head>
+<body>
+
+	<div class="topBan"></div>
+	<div class="middleBan">
+		<div class="midLeft"></div>
+		<div class="middleForm">
+			<div>
+			<form class="formLogin" action="login" method="post">
+
+				<input id="u_name" class="textBox" required type="text" name="username" placeholder="用户名" autofocus />
+				<!-- onblur="isUserExist(this.value)" --> <!-- autofocus="autofocus" --><br> 
+				<input id="u_pwd" class="textBox" required type="password" name="pwd" placeholder="密码"/> <br> 
+				<input type="radio" name="authority" value="1" checked />student 
+				<input type="radio" name="authority" value="0" />teacher	<!-- radio,只要name相同，就只能选中其中的一个 -->	<br> 
+				<div class="safecodeDiv">
+				<input class="safecodeText" type="text" name="safecode">
+				<img id="safe" src="" ><br>
+				</div>
+				<input id="bt_login" class="btLogin" type="submit" value="Login"> 
+				
+				<a href="../jsp/register.jsp">Register</a>
+
+			</form>
+				
+			
+			</div>
+			<div class="formRight">
+				<span id="sp_error"></span>
+			</div>
+
+		</div>
+		<div class="midRight"></div>
+	</div>
+</body>
+</html>
