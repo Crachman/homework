@@ -10,6 +10,7 @@ $RECYCLE.BIN/
 
 #Eclipse Project files
 */.sittings/*
+*/target/*
 *.classpath
 *.project
 *.prefs
